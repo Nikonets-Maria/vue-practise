@@ -106,10 +106,10 @@
             cards: [
             {id: 1, imgSrc: imgClient, stars: 5, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
             {id: 2, imgSrc: imgClient, stars: 5, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
-            {id: 3, imgSrc: imgClient, stars: 5, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
-            {id: 4, imgSrc: imgClient, stars: 5, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
-            {id: 5, imgSrc: imgClient, stars: 5, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
-            {id: 6, imgSrc: imgClient, stars: 5, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
+            {id: 3, imgSrc: imgClient, stars: 1, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
+            {id: 4, imgSrc: imgClient, stars: 2, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
+            {id: 5, imgSrc: imgClient, stars: 3, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
+            {id: 6, imgSrc: imgClient, stars: 4, name: 'Gemma Nolen', company: 'Google', text: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'}, 
 
         ],
 
