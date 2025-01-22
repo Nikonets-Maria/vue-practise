@@ -3,4 +3,32 @@
   margin: 3px;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  p{
+    font-size: 17px;
+  }
+  h6{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 68px;
+  }
+  h3{
+    font-size: 32px;
+  }
+
+  button{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    width: 211px;
+    height: 78px;
+  }
 }

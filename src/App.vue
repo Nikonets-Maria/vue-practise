@@ -1,120 +1,29 @@
 
 <template>
 
-  <header>
-    <div class="headerLine">
-      <img :src="imgLogo"/>
-      <div class="headerLinks">
-        <p>About</p>
-        <p>Work</p>
-        <p>Contact</p>
-      </div>
-      
-    </div>
-
-    <div class="headerContent">
-      <div class="headerText">
-        <h6> Branding | Image making</h6>
-        <h1> Visual Designer </h1>
-        <p> This is a template Figma file, turned into code using Anima. 
-          Learn more at AnimaApp.com </p>
-        <button>Contact</button>
-      </div>
-      
-      <img :src="imgHead"/>
-    </div>
-    
-    <div class="logosWraper">
-      <img :src="imgGoogle"/>
-      <img :src="imgNike"/>
-      <img :src="imgSlmsung"/>
-      <img :src="imgAple"/>
-      <img :src="imgAdidas"/>
-
-    </div>
-  </header>
-
-  <main>
-    <div>
-
-    </div>
-
-    <div>
-      <h4> Latest work</h4>
-
-    </div>
-
-    <div>
-      <h4> Testimonial</h4>
-
-    </div>
-
-  </main>
-
-  <footer>
-    <div class="footerContent">
-      <div class="footerText">
-      <h3> Lets work together</h3>
-      <p> This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
-
-      <div class="footerImges">
-        <img :src="imgDiscord"/>
-        <img :src="imgFacebook"/>
-        <img :src="imgDribble"/>
-        <img :src="imgInstagram"/>
-        <img :src="imgBehance"/>
-      </div>
-
-    </div>
-
-    <form id="inputform" class="inputform">
-      <input type="text" value="Name">
-      <input type="email" value="Email">
-      <input type="submit" class="inputSubmit" value="Submit">
-    </form>
-    </div>
-
-  </footer>
+  <HeaderComp></HeaderComp>
+  <MainComp></MainComp>
+  <FooterComp></FooterComp>
 
 </template>
 
 <script>
-  import imgLogo from "./assets/logoLogo.png"
 
-  import imgHead from "./assets/logoHeader.png"
-  import imgGoogle from "./assets/logo0google.png"
-  import imgNike from "./assets/logo1nike.png"
-  import imgSlmsung from "./assets/logo2slmsung.png"
-  import imgAple from "./assets/logo3Apple.png"
-  import imgAdidas from "./assets/logo4adidas.png"
-
-  import imgDiscord from "./assets/socialdiscord.png"
-  import imgFacebook from "./assets/socialfacebook.png"
-  import imgDribble from "./assets/socialdribbble.png"
-  import imgInstagram from "./assets/socialInstagram.png"
-  import imgBehance from "./assets/socialbehance.png"
+import HeaderComp from "./components/HeaderComp.vue"
+import FooterComp from "./components/FooterComp.vue"
+import MainComp from "./components/MainComp.vue"
   
   export default {
+    components:{
+      HeaderComp,
+      FooterComp,
+      MainComp
+    },
+
     data(){
       return {
-        products: ["Шоколад", "Пончик","Жвачка", "Мармелад", "Газировка"],
-        imgLogo: imgLogo,
-
-        imgHead: imgHead,
-        imgGoogle: imgGoogle,
-        imgNike: imgNike,
-        imgSlmsung: imgSlmsung,
-        imgAple: imgAple,
-        imgAdidas: imgAdidas,
-
-        imgDiscord: imgDiscord,
-        imgFacebook: imgFacebook,
-        imgDribble: imgDribble,
-        imgInstagram: imgInstagram,
-        imgBehance: imgBehance,
-
       }
-    }
+    },
   }
 </script>
 
@@ -122,7 +31,7 @@
 <style scoped>
   body{
     display: flex;
-    flex-wrap: wrap;
+    height: 100vh;
     width: 100%;
 
     p{
@@ -150,7 +59,6 @@
   main{
     display: flex;
     flex-direction: column;
-
   }
 
   .headerLine{
@@ -189,7 +97,7 @@
   .footerContent{
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     left: 0;
     width: 100%;
